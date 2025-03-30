@@ -1,0 +1,51 @@
+/* Mudei a cor do fundo para verde*/
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: rgb(173, 235, 173);
+    color: white;
+}
+
+/* Deixei o texto do cabeçalho verde e alinhei no centro */
+.cabecalho{
+    color: #008000;
+    text-align: center;
+}
+
+/*Mudei a cor do texto para rosa, coloquei em negrito e ajustei o tamanho para 32px*/
+.tituloPrinc{
+    color: palevioletred;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+/*Mudei a cor do subtitulo para o mesmo rosa do titulo principal */
+.subtitulo1{
+    color: palevioletred;
+}
+
+/* Troquei a cor do fundo do conteudo para um azul bem clarinho e o texto titulo para rosa*/
+.conteudo{
+    background-color: rgb(235, 247, 247);
+    color: palevioletred;
+}
+
+/* Coloquei todos os conteudos com a tag p com a cor vermelha e tamanho 42px */
+.conteudo>p{
+    color: #e4005a;
+    font-size: 42px;
+}
+
+/* Coloquei o terceiro filho com a cor roxa e subscrito*/
+.conteudo >p:nth-child(3) {
+    color: purple;
+    vertical-align: sub;
+}
+
+/* Quando a tela for maior que 480px, o conteiner vai ficar com um fundo azul claro*/
+@media (max-width:480px){
+    .container{
+        background-color: lightblue;
+    }
+}
+
